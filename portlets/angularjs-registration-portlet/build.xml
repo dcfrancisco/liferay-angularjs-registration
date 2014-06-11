@@ -2,5 +2,5 @@
 <!DOCTYPE project>
 
 <project name="angularjs-registration-portlet" basedir="." default="deploy">
-	<import file="/Users/katalinamarcos/Projects/OpenSource/repositories/github/kmarcos/liferay-angularjs-registration/portlets/build-common-portlet.xml" />
+	<import file="../build-common-portlet.xml" />
 </project>

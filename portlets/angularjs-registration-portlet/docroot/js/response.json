@@ -1,0 +1,27 @@
+{
+    "form":[
+        {   "name":"Section 1",
+            "fields": [
+                {"name":"Full Name","type":"text","null":"false","max-lenght":8},
+                {"name":"Company","type":"text","null":"false","max-lenght":8}
+            ]
+        },
+        {   "name":"Section 2",
+            "fields": [
+                {"name":"Position","type":"text","null":"false","max-lenght":8},
+                {"name":"Email Address","type":"email","null":"false"}
+            ]
+        },
+        {   "name":"Section 3",
+            "fields": [
+                {"name":"Password","type":"password","null":"false","max-lenght":8}
+            ]
+        },
+        {   "name":"Section 4",
+            "fields": [
+                {"name":"Age","type":"select","options":[18,19,20]},
+                {"name":"State","type":"select","options":["California","New York","Miami","Oregon"]}
+            ]
+        }
+    ]
+}
