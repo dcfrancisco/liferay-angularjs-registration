@@ -1,15 +1,4 @@
 
-/*var myModule = angular.module('<portlet:namespace/>container', []);
-
-myModule.controller('sectionController', function($scope, $http) {
-            $scope.myData = {};
-            $scope.myData.doClick = function(item, event) {
-
-                console.log("hola");
-            }
-
-
-        } );*/
 /*
 var progress=0;
 $(function() {
