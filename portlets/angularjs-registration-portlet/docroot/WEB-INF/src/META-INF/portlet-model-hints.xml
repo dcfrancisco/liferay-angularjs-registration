@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.rivetlogic.angularjs.model.Users">
+		<field name="userName" type="String" />
+		<field name="email" type="String" />
+		<field name="fullName" type="String" />
+		<field name="company" type="String" />
+		<field name="position" type="String" />
+		<field name="password" type="String" />
+		<field name="age" type="int" />
+		<field name="state" type="String" />
+	</model>
+</model-hints>

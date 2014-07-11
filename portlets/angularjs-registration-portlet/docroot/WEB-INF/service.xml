@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.1.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_1_0.dtd">
+<service-builder package-path="com.rivetlogic.angularjs">
+    <author>charles.rodriguez</author>
+    <namespace>rivetlogic_angular</namespace>
+
+    <entity name="Users" local-service="true" remote-service="false">
+        <!-- PK fields -->
+        <column name="userName" type="String" primary="true" />
+        <!-- Other fields -->
+        <column name="email" type="String" />
+        <column name="fullName" type="String" />
+        <column name="company" type="String" />
+        <column name="position" type="String" />
+        <column name="password" type="String" />
+        <column name="age" type="int" />
+        <column name="state" type="String" />
+    </entity>
+</service-builder>
